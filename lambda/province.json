@@ -1,0 +1,537 @@
+[
+  {
+    "denominazione_provincia": "Agrigento",
+    "min": 92010,
+    "max": 92100
+  },
+  {
+    "denominazione_provincia": "Alessandria",
+    "min": 15010,
+    "max": 15122
+  },
+  {
+    "denominazione_provincia": "Ancona",
+    "min": 60010,
+    "max": 60131
+  },
+  {
+    "denominazione_provincia": "Arezzo",
+    "min": 52010,
+    "max": 52100
+  },
+  {
+    "denominazione_provincia": "Ascoli Piceno",
+    "min": 63061,
+    "max": 63100
+  },
+  {
+    "denominazione_provincia": "Asti",
+    "min": 14010,
+    "max": 14100
+  },
+  {
+    "denominazione_provincia": "Avellino",
+    "min": 83010,
+    "max": 83100
+  },
+  {
+    "denominazione_provincia": "Bari",
+    "min": 70010,
+    "max": 70132
+  },
+  {
+    "denominazione_provincia": "Barletta-Andria-Trani",
+    "min": 76011,
+    "max": 76125
+  },
+  {
+    "denominazione_provincia": "Belluno",
+    "min": 32010,
+    "max": 32100
+  },
+  {
+    "denominazione_provincia": "Benevento",
+    "min": 82010,
+    "max": 82100
+  },
+  {
+    "denominazione_provincia": "Bergamo",
+    "min": 24010,
+    "max": 24129
+  },
+  {
+    "denominazione_provincia": "Biella",
+    "min": 13811,
+    "max": 13900
+  },
+  {
+    "denominazione_provincia": "Bologna",
+    "min": 40010,
+    "max": 40141
+  },
+  {
+    "denominazione_provincia": "Bolzano",
+    "min": 39010,
+    "max": 39100
+  },
+  {
+    "denominazione_provincia": "Brescia",
+    "min": 25010,
+    "max": 25136
+  },
+  {
+    "denominazione_provincia": "Brindisi",
+    "min": 72012,
+    "max": 72100
+  },
+  {
+    "denominazione_provincia": "Cagliari",
+    "min": 9012,
+    "max": 9134
+  },
+  {
+    "denominazione_provincia": "Caltanissetta",
+    "min": 93010,
+    "max": 93100
+  },
+  {
+    "denominazione_provincia": "Campobasso",
+    "min": 86010,
+    "max": 86100
+  },
+  {
+    "denominazione_provincia": "Caserta",
+    "min": 81010,
+    "max": 81100
+  },
+  {
+    "denominazione_provincia": "Catania",
+    "min": 95010,
+    "max": 95131
+  },
+  {
+    "denominazione_provincia": "Catanzaro",
+    "min": 88020,
+    "max": 88100
+  },
+  {
+    "denominazione_provincia": "Chieti",
+    "min": 66010,
+    "max": 66100
+  },
+  {
+    "denominazione_provincia": "Como",
+    "min": 22010,
+    "max": 22100
+  },
+  {
+    "denominazione_provincia": "Cosenza",
+    "min": 87010,
+    "max": 87100
+  },
+  {
+    "denominazione_provincia": "Cremona",
+    "min": 26010,
+    "max": 26100
+  },
+  {
+    "denominazione_provincia": "Crotone",
+    "min": 88811,
+    "max": 88900
+  },
+  {
+    "denominazione_provincia": "Cuneo",
+    "min": 12010,
+    "max": 12100
+  },
+  {
+    "denominazione_provincia": "Enna",
+    "min": 94010,
+    "max": 94100
+  },
+  {
+    "denominazione_provincia": "Fermo",
+    "min": 63811,
+    "max": 63900
+  },
+  {
+    "denominazione_provincia": "Ferrara",
+    "min": 44011,
+    "max": 44124
+  },
+  {
+    "denominazione_provincia": "Firenze",
+    "min": 50012,
+    "max": 50145
+  },
+  {
+    "denominazione_provincia": "Foggia",
+    "min": 71010,
+    "max": 71122
+  },
+  {
+    "denominazione_provincia": "Forlì-Cesena",
+    "min": 47010,
+    "max": 47522
+  },
+  {
+    "denominazione_provincia": "Frosinone",
+    "min": 3010,
+    "max": 3100
+  },
+  {
+    "denominazione_provincia": "Genova",
+    "min": 16010,
+    "max": 16167
+  },
+  {
+    "denominazione_provincia": "Gorizia",
+    "min": 34070,
+    "max": 34170
+  },
+  {
+    "denominazione_provincia": "Grosseto",
+    "min": 58010,
+    "max": 58100
+  },
+  {
+    "denominazione_provincia": "Imperia",
+    "min": 18010,
+    "max": 18100
+  },
+  {
+    "denominazione_provincia": "Isernia",
+    "min": 86070,
+    "max": 86170
+  },
+  {
+    "denominazione_provincia": "L'Aquila",
+    "min": 67010,
+    "max": 67100
+  },
+  {
+    "denominazione_provincia": "La Spezia",
+    "min": 19010,
+    "max": 19137
+  },
+  {
+    "denominazione_provincia": "Latina",
+    "min": 4010,
+    "max": 4100
+  },
+  {
+    "denominazione_provincia": "Lecce",
+    "min": 73010,
+    "max": 73100
+  },
+  {
+    "denominazione_provincia": "Lecco",
+    "min": 23801,
+    "max": 23900
+  },
+  {
+    "denominazione_provincia": "Livorno",
+    "min": 57014,
+    "max": 57128
+  },
+  {
+    "denominazione_provincia": "Lodi",
+    "min": 26811,
+    "max": 26900
+  },
+  {
+    "denominazione_provincia": "Lucca",
+    "min": 55011,
+    "max": 55100
+  },
+  {
+    "denominazione_provincia": "Macerata",
+    "min": 62010,
+    "max": 62100
+  },
+  {
+    "denominazione_provincia": "Mantova",
+    "min": 46010,
+    "max": 46100
+  },
+  {
+    "denominazione_provincia": "Massa Carrara",
+    "min": 54010,
+    "max": 54100
+  },
+  {
+    "denominazione_provincia": "Matera",
+    "min": 75010,
+    "max": 75100
+  },
+  {
+    "denominazione_provincia": "Messina",
+    "min": 98020,
+    "max": 98168
+  },
+  {
+    "denominazione_provincia": "Milano",
+    "min": 20010,
+    "max": 20162
+  },
+  {
+    "denominazione_provincia": "Modena",
+    "min": 41011,
+    "max": 41126
+  },
+  {
+    "denominazione_provincia": "Monza e della Brianza",
+    "min": 20811,
+    "max": 20900
+  },
+  {
+    "denominazione_provincia": "Napoli",
+    "min": 80010,
+    "max": 80147
+  },
+  {
+    "denominazione_provincia": "Novara",
+    "min": 28010,
+    "max": 28100
+  },
+  {
+    "denominazione_provincia": "Nuoro",
+    "min": 8010,
+    "max": 8100
+  },
+  {
+    "denominazione_provincia": "Oristano",
+    "min": 9070,
+    "max": 9170
+  },
+  {
+    "denominazione_provincia": "Padova",
+    "min": 35010,
+    "max": 35143
+  },
+  {
+    "denominazione_provincia": "Palermo",
+    "min": 90010,
+    "max": 90151
+  },
+  {
+    "denominazione_provincia": "Parma",
+    "min": 43010,
+    "max": 43126
+  },
+  {
+    "denominazione_provincia": "Pavia",
+    "min": 27010,
+    "max": 27100
+  },
+  {
+    "denominazione_provincia": "Perugia",
+    "min": 6010,
+    "max": 6135
+  },
+  {
+    "denominazione_provincia": "Pesaro e Urbino",
+    "min": 61010,
+    "max": 61122
+  },
+  {
+    "denominazione_provincia": "Pescara",
+    "min": 65010,
+    "max": 65129
+  },
+  {
+    "denominazione_provincia": "Piacenza",
+    "min": 29010,
+    "max": 29122
+  },
+  {
+    "denominazione_provincia": "Pisa",
+    "min": 56010,
+    "max": 56128
+  },
+  {
+    "denominazione_provincia": "Pistoia",
+    "min": 51010,
+    "max": 51100
+  },
+  {
+    "denominazione_provincia": "Pordenone",
+    "min": 33070,
+    "max": 33170
+  },
+  {
+    "denominazione_provincia": "Potenza",
+    "min": 85010,
+    "max": 85100
+  },
+  {
+    "denominazione_provincia": "Prato",
+    "min": 59013,
+    "max": 59100
+  },
+  {
+    "denominazione_provincia": "Ragusa",
+    "min": 97010,
+    "max": 97100
+  },
+  {
+    "denominazione_provincia": "Ravenna",
+    "min": 48011,
+    "max": 48125
+  },
+  {
+    "denominazione_provincia": "Reggio di Calabria",
+    "min": 89010,
+    "max": 89135
+  },
+  {
+    "denominazione_provincia": "Reggio nell'Emilia",
+    "min": 42010,
+    "max": 42124
+  },
+  {
+    "denominazione_provincia": "Rieti",
+    "min": 2010,
+    "max": 2100
+  },
+  {
+    "denominazione_provincia": "Rimini",
+    "min": 47814,
+    "max": 47924
+  },
+  {
+    "denominazione_provincia": "Roma",
+    "min": 10,
+    "max": 199
+  },
+  {
+    "denominazione_provincia": "Rovigo",
+    "min": 45010,
+    "max": 45100
+  },
+  {
+    "denominazione_provincia": "Salerno",
+    "min": 84010,
+    "max": 84135
+  },
+  {
+    "denominazione_provincia": "Sassari",
+    "min": 7010,
+    "max": 7100
+  },
+  {
+    "denominazione_provincia": "Savona",
+    "min": 12071,
+    "max": 17100
+  },
+  {
+    "denominazione_provincia": "Siena",
+    "min": 53011,
+    "max": 53100
+  },
+  {
+    "denominazione_provincia": "Siracusa",
+    "min": 96010,
+    "max": 96100
+  },
+  {
+    "denominazione_provincia": "Sondrio",
+    "min": 23010,
+    "max": 23100
+  },
+  {
+    "denominazione_provincia": "Taranto",
+    "min": 74010,
+    "max": 74123
+  },
+  {
+    "denominazione_provincia": "Teramo",
+    "min": 64010,
+    "max": 64100
+  },
+  {
+    "denominazione_provincia": "Terni",
+    "min": 5010,
+    "max": 5100
+  },
+  {
+    "denominazione_provincia": "Torino",
+    "min": 10010,
+    "max": 10156
+  },
+  {
+    "denominazione_provincia": "Trapani",
+    "min": 91010,
+    "max": 91100
+  },
+  {
+    "denominazione_provincia": "Trento",
+    "min": 38010,
+    "max": 38123
+  },
+  {
+    "denominazione_provincia": "Treviso",
+    "min": 31010,
+    "max": 31100
+  },
+  {
+    "denominazione_provincia": "Trieste",
+    "min": 34010,
+    "max": 34151
+  },
+  {
+    "denominazione_provincia": "Udine",
+    "min": 33010,
+    "max": 33100
+  },
+  {
+    "denominazione_provincia": "Aosta",
+    "min": 11010,
+    "max": 11100
+  },
+  {
+    "denominazione_provincia": "Sud Sardegna",
+    "min": 9010,
+    "max": 9066
+  },
+  {
+    "denominazione_provincia": "Varese",
+    "min": 21010,
+    "max": 21100
+  },
+  {
+    "denominazione_provincia": "Venezia",
+    "min": 30010,
+    "max": 30176
+  },
+  {
+    "denominazione_provincia": "Verbano-Cusio-Ossola",
+    "min": 28801,
+    "max": 28925
+  },
+  {
+    "denominazione_provincia": "Vercelli",
+    "min": 13010,
+    "max": 13100
+  },
+  {
+    "denominazione_provincia": "Verona",
+    "min": 37010,
+    "max": 37142
+  },
+  {
+    "denominazione_provincia": "Vibo Valentia",
+    "min": 89812,
+    "max": 89900
+  },
+  {
+    "denominazione_provincia": "Vicenza",
+    "min": 36010,
+    "max": 36100
+  },
+  {
+    "denominazione_provincia": "Viterbo",
+    "min": 1010,
+    "max": 1100
+  }
+]

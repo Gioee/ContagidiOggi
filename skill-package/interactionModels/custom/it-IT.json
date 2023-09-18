@@ -1,0 +1,389 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "contagi di oggi",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "accetto",
+            "ovvio che si",
+            "si grazie",
+            "di sicuro",
+            "ovvio",
+            "certamente",
+            "sicuramente",
+            "si",
+            "aiuto"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "no grazie",
+            "no",
+            "basta",
+            "stop",
+            "esci"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "contagiOdierni",
+          "slots": [],
+          "samples": [
+            "contagi Italia",
+            "casi Italia",
+            "contagi nazionali",
+            "bollettino nazionale",
+            "contagi dell\u0027Italia",
+            "riassunto",
+            "riassuntivo",
+            "coronavirus oggi",
+            "bollettino",
+            "di oggi",
+            "oggi",
+            "bollettino odierno",
+            "bollettino riassuntivo",
+            "bollettino di oggi",
+            "contagi di oggi",
+            "contagi odierni",
+            "casi odierni"
+          ]
+        },
+        {
+          "name": "bollettinoCompleto",
+          "slots": [],
+          "samples": [
+            "completo",
+            "tutti i dati",
+            "statistiche complete",
+            "bollettino completo"
+          ]
+        },
+        {
+          "name": "contagiCitta",
+          "slots": [
+            {
+              "name": "citta",
+              "type": "AMAZON.City"
+            }
+          ],
+          "samples": [
+            "dell\u0027 {citta}",
+            "in {citta}",
+            "del {citta}",
+            "casi della città di {citta}",
+            "contagi della città di {citta}",
+            "provincia di {citta}",
+            "i contagi della provincia di {citta}",
+            "di {citta}",
+            "casi di {citta}",
+            "il bollettino di {citta}",
+            "i morti di {citta}",
+            "i tamponi di {citta}",
+            "corona virus a {citta}",
+            "{citta}",
+            "le statistiche di {citta}",
+            "i contagi di {citta}"
+          ]
+        },
+        {
+          "name": "contagiRegione",
+          "slots": [
+            {
+              "name": "regione",
+              "type": "AMAZON.Region"
+            }
+          ],
+          "samples": [
+            "in {regione}",
+            "dell\u0027 {regione}",
+            "casi dell\u0027 {regione}",
+            "contagi dell\u0027 {regione}",
+            "casi del {regione}",
+            "contagi del {regione}",
+            "casi della {regione}",
+            "contagi della {regione}",
+            "casi della regione di {regione}",
+            "contagi della regione di {regione}",
+            "di {regione}",
+            "casi di {regione}",
+            "il bollettino di {regione}",
+            "i morti di {regione}",
+            "i tamponi di {regione}",
+            "corona virus a {regione}",
+            "{regione}",
+            "le statistiche di {regione}",
+            "i contagi di {regione}"
+          ]
+        }
+      ],
+      "types": []
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "contagiCitta",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "citta",
+              "type": "AMAZON.City",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1489800321464.1151400654251"
+              },
+              "validations": [
+                {
+                  "type": "isInSet",
+                  "prompt": "Slot.Validation.1575219936183.670224308246.1352336964806",
+                  "values": [
+                    "Vercelli",
+                    "Pisa",
+                    "Modena",
+                    "Cremona",
+                    "Udine",
+                    "Como",
+                    "Padova",
+                    "Grosseto",
+                    "La Spezia",
+                    "Novara",
+                    "Ascoli Piceno",
+                    "Arezzo",
+                    "Enna",
+                    "Cuneo",
+                    " Barletta-Andria-Trani",
+                    "Nuoro",
+                    "Belluno",
+                    "Viterbo",
+                    "Crotone",
+                    "Benevento",
+                    "Imperia",
+                    "L\u0027Aquila",
+                    "Massa Carrara",
+                    "Teramo",
+                    "Parma",
+                    "Bologna",
+                    "Caserta",
+                    "Lodi",
+                    "Brindisi",
+                    "Trento",
+                    "Ravenna",
+                    "Rieti",
+                    "Cosenza",
+                    "Ferrara",
+                    "Asti",
+                    "Frosinone",
+                    "Macerata",
+                    "Varese",
+                    "Fermo",
+                    "Siena",
+                    "Vibo Valentia",
+                    "Oristano",
+                    "Venezia",
+                    "Agrigento",
+                    "Perugia",
+                    "Avellino",
+                    "Brescia",
+                    "Verona",
+                    "Reggio di Calabria",
+                    "Verbano-Cusio-Ossola",
+                    "Isernia",
+                    "Lecco",
+                    "Treviso",
+                    "Palermo",
+                    "Lecce",
+                    "Firenze",
+                    "Roma",
+                    "Siracusa",
+                    "Forlì-Cesena",
+                    "Salerno",
+                    "Trieste",
+                    "Cagliari",
+                    "Prato",
+                    "Vicenza",
+                    "Chieti",
+                    "Napoli",
+                    "Savona",
+                    "Mantova",
+                    "Potenza",
+                    "Terni",
+                    "Bolzano",
+                    "Pesaro e Urbino",
+                    "Latina",
+                    "Bergamo",
+                    "Genova",
+                    "Pescara",
+                    "Rimini",
+                    "Pavia",
+                    "Alessandria",
+                    "Bari",
+                    "Ancona",
+                    "Gorizia",
+                    "Monza e della Brianza",
+                    "Biella",
+                    "Aosta",
+                    "Catanzaro",
+                    "Lucca",
+                    "Reggio nell\u0027Emilia",
+                    "Foggia",
+                    "Pordenone",
+                    "Sud Sardegna",
+                    "Livorno",
+                    "Matera",
+                    "Messina",
+                    "Pistoia",
+                    "Taranto",
+                    "Sondrio",
+                    "Catania",
+                    "Milano",
+                    "Caltanissetta",
+                    "Trapani",
+                    "Rovigo",
+                    "Torino",
+                    "Piacenza",
+                    "Campobasso",
+                    "Sassari",
+                    "Ragusa"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "contagiRegione",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "regione",
+              "type": "AMAZON.Region",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.756978892135.100390878502"
+              },
+              "validations": [
+                {
+                  "type": "isInSet",
+                  "prompt": "Slot.Validation.756978892135.100390878502.760832509317",
+                  "values": [
+                    "Calabria",
+                    "Trentino-Alto Adige",
+                    "Friuli Venezia Giulia",
+                    "Sardegna",
+                    "Veneto",
+                    "Campania",
+                    "Molise",
+                    "Abruzzo",
+                    "Puglia",
+                    "Piemonte",
+                    "Basilicata",
+                    "Toscana",
+                    "trentino",
+                    "Lombardia",
+                    "Marche",
+                    "Lazio",
+                    "Liguria",
+                    "trentino alto adige",
+                    "Umbria",
+                    "Emilia-Romagna",
+                    "Valle d\u0027Aosta",
+                    "Sicilia"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1489800321464.1151400654251",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Provincia di?"
+          },
+          {
+            "type": "PlainText",
+            "value": "La provincia è?"
+          },
+          {
+            "type": "PlainText",
+            "value": "La città è {citta} ?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Puoi ripetermi la citta?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.756978892135.100390878502",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Puoi ripetermi la regione?"
+          },
+          {
+            "type": "PlainText",
+            "value": "La regione è {regione} ?"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.756978892135.100390878502.760832509317",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Ripeti la regione."
+          },
+          {
+            "type": "PlainText",
+            "value": "Non ho capito la regione."
+          },
+          {
+            "type": "PlainText",
+            "value": "Puoi ripetermi la regione?"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1575219936183.670224308246.1352336964806",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Provincia di?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Ripeti la provincia."
+          },
+          {
+            "type": "PlainText",
+            "value": "Scusa, non ho capito la pronuncia."
+          },
+          {
+            "type": "PlainText",
+            "value": "Puoi ripetermi la provincia?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "26"
+}

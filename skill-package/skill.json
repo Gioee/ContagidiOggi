@@ -1,0 +1,106 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "Rimani informato sui contagi del virus tutti i giorni grazie a questa skill!",
+          "examplePhrases": [
+            "Alexa, apri contagi di oggi",
+            "Alexa, chiedi a contagi di oggi i contagi della provincia di Milano",
+            "Alexa, chiedi a contagi di oggi i casi in Lazio"
+          ],
+          "keywords": [
+            "corona",
+            "virus",
+            "pandemia",
+            "contagi",
+            "casi",
+            "dati",
+            "statistiche",
+            "diffusione",
+            "indice",
+            "rt",
+            "morti",
+            "guariti",
+            "contagiati",
+            "regione",
+            "citta",
+            "italia",
+            "nazione",
+            "bollettino",
+            "riassuntivo",
+            "completo",
+            "dpcm",
+            "zona",
+            "influenza",
+            "raffreddore",
+            "disinfettante",
+            "oggi",
+            "attuali",
+            "notizie",
+            "antivirus",
+            "vaccino"
+          ],
+          "name": "Contagi di Oggi",
+          "description": "Con questa skill per Alexa potrai rimanere informato sull\u0027andamento della diffusione del virus, la skill nella fase di apertura ti elencherà i nuovi contagi in Italia e quelli nella tua provincia. Successivamente potrai chiederle un bollettino riassuntivo o completo, oppure le statistiche per regione o provincia.\n\nP.S.: ricordati di abilitare i permessi per il codice postale nell\u0027app di alexa o quando richiesto dalla skill.",
+          "smallIconUri": "file://assets/images/it-IT_smallIconUri.png",
+          "updatesDescription": "prima release :)",
+          "largeIconUri": "file://assets/images/it-IT_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Sto pubblicando questa skill che permetta agli utenti di rimanere aggiornati riguardo alle statistiche della diffusione del COVID-19. Si possono chiedere i contagi per regione, provincia, un bollettino nazionale completo o riassuntivo, la skill al primo avvio richiede i permessi di localizzazione per poter eseguire un output dei contagi basata sulla posizione del dispositivo.",
+      "category": "HEALTH_AND_FITNESS",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": [
+        "IT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:085478423187:function:d709c2ac-8972-41e7-901c-3b10bc2d9502:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:085478423187:function:d709c2ac-8972-41e7-901c-3b10bc2d9502:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:085478423187:function:d709c2ac-8972-41e7-901c-3b10bc2d9502:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:085478423187:function:d709c2ac-8972-41e7-901c-3b10bc2d9502:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa:devices:all:address:country_and_postal_code:read"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "it-IT": {
+          "privacyPolicyUrl": "https://www.termsfeed.com/live/16d42dfe-7d59-48a5-8f15-fb6a0b094cb6"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
